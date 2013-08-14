@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<!--
+	Nicky Yuen
+	A00880493
+	COMP1911 Assignment 2
+-->
+
+<html>
+<head>
+	<title>Nicky Yuen - Comp1911 Assignment 2</title>
+	<meta charset="utf-8">
+	<!-- Various scripts and CSS -->
+	<script type="text/javascript" src="jquery-1.9.1.min.js"></script>
+	
+	<!-- ************************* -->
+	<!-- Function 1: LiteAccordion -->
+	<!-- ************************* -->
+	<link rel="stylesheet" type="text/css" href="function1/liteaccordion.css">
+	<script type="text/javascript" src="jquery-1.9.1.min.js"></script>
+	
+	<!-- ******************************* -->
+	<!-- Function 2: Stylesheet switcher -->
+	<!-- ******************************* -->
+	<link rel="stylesheet" 				type="text/css" 	href="common.css" 								media="screen">
+	<link rel="stylesheet" 				type="text/css" 	href="function2/normal.css" 	title="normal" 	media="screen">
+	<link rel="alternate stylesheet" 	type="text/css" 	href="function2/funky.css" 		title="funky" 	media="screen">
+	<link rel="alternate stylesheet" 	type="text/css" 	href="function2/ancient.css" 	title="ancient" media="screen">	
+	
+	<!-- *********************** -->
+	<!-- Function 3 - Datepicker -->
+	<!-- *********************** -->
+	<link rel="stylesheet" type="text/css" href="function3/ui.datepicker.css"/>
+	
+	<!-- *********************** -->
+	<!-- Function 5 - jScrollPane -->
+	<!-- *********************** -->
+	<link rel="stylesheet" type="text/css" media="all" href="function5/jScrollPane.css">
+	
+	<!-- *********************** -->
+	<!-- Function 6 - jTip -->
+	<!-- *********************** -->
+	<link rel="stylesheet" type="text/css" href="function6/function6.css">
+	
+	
+</head>
+<body>
+	<h1>Nicky Yuen, Assignment 2</h1>
+	<noscript>
+		<p><a href="http://enable-javascript.com/">Oh no, you're missing out on ALL that Javascript has to offer! Please enable Javascript on your browser.</a></p>
+	</noscript>
+<!-- Function 1 - Accordion *********************************************************************************************************** -->
+	<script type="text/javascript" src="function1/liteaccordion.jquery.min.js"></script>
+	<div id="function1">
+		<h2>Function 1 - LiteAccordion</h2>	
+		<div class="liteAccordion basic" style="width: 960px; height: 320px;" id="myAccordion">
+            <ol>
+				<li class="slide">
+                    <h2 class="selected"><span>Johann Sebastian Bach</span></h2>
+                    <div>
+                        <figure>
+							<img src="function1/images/bach.jpg" alt="Bach">
+						</figure>
+						<ul>
+							<li><h2 class="composer_name">Johann Sebastian Bach</h2></li>
+							<li>Born: March 31, 1685, Eisenach</li>
+							<li>Died: July 28, 1750, Leipzig</li>
+							<li>Compositions: Cello Suites, Well-Tempered Clavier, Brandenburg concertos</li>
+							<li><a href="http://en.wikipedia.org/wiki/Johann_Sebastian_Bach">Wikipedia: Bach</a></li>
+						</ul>
+                    </div>
+                </li>
+                <li class="slide">
+                    <h2><span>Ludwig van Beethoven</span></h2>
+                    <div>
+                        <figure>
+							<img src="function1/images/beethoven.jpg" alt="Beethoven">
+						</figure>
+						<ul>
+							<li><h2 class="composer_name">Ludwig van Beethoven</h2></li>
+							<li>Born: December 16, 1770, Bonn</li>
+							<li>Died: March 26, 1827, Vienna</li>
+							<li>Compositions: Symphony No.9, Symphony No.5, Piano Sonata No.14</li>
+							<li><a href="http://en.wikipedia.org/wiki/Ludwig_van_Beethoven">Wikipedia: Beethoven</a></li>
+							
+						</ul>
+                    </div>
+                </li>
+                <li class="slide">
+                    <h2><span>Fr&eacute;d&eacute;ric Chopin</span></h2>
+                    <div>
+                        <figure>
+							<img src="function1/images/chopin.jpg" alt="Chopin">
+						</figure>
+						<ul>
+							<li><h2 class="composer_name">Fr&eacute;d&eacute;ric Chopin</h2></li>
+							<li>Born: February 22, 1810, Zelazowa Wola</li>
+							<li>Died: October 17, 1849, Paris</li>
+							<li>Compositions: Nocturnes, Preludes Op. 28, &Eacute;tudes</li>
+							<li><a href="http://en.wikipedia.org/wiki/Fr%C3%A9d%C3%A9ric_Chopin">Wikipedia: Chopin</a></li>
+						</ul>
+                    </div>
+                </li>
+                <li class="slide">
+                    <h2><span>George Frideric Handel</span></h2>
+                    <div>
+                        <figure>
+							<img src="function1/images/handel.jpg" alt="Handel">
+						</figure>
+						<ul>
+							<li><h2 class="composer_name">George Frideric Handel</h2></li>
+							<li>Born: February 23, 1685, Halle</li>
+							<li>Died: April 14, 1759, London</li>
+							<li>Compositions:  Messiah, Water Music</li>
+							<li><a href="http://en.wikipedia.org/wiki/George_Frideric_Handel">Wikipedia: Handel</a></li>
+						</ul>
+                    </div>
+                </li>
+                <li class="slide">
+                    <h2><span>Felix Mendelssohn-Bartholdy</span></h2>
+                    <div>
+                        <figure>
+							<img src="function1/images/mendelssohn.jpg" alt="Mendelssohn">
+						</figure>
+						<ul>
+							<li><h2 class="composer_name">Felix Mendelssohn-Bartholdy</h2></li>
+							<li>Born: February 3, 1809, Hamburg</li>
+							<li>Died: November 4, 1847, Leipzig</li>
+							<li>Compositions: Violin Concerto, Wedding March, Songs without Words</li>
+							<li><a href="http://en.wikipedia.org/wiki/Felix_Mendelssohn">Wikipedia: Mendelssohn</a></li>
+						</ul>
+                    </div>
+                </li>
+            </ol>
+            <noscript>
+                <p>Please enable JavaScript to get the full experience.</p>
+            </noscript>
+        </div>
+	</div>
+	<script>
+		$('#myAccordion').liteAccordion({
+			containerHeight: 280,
+			containerWidth: 900,
+			headerWidth: 60,
+			onTriggerSlide: function(){
+				this.find('figcaption').fadeOut();
+			},
+			onSlideAnimComplete: function(){
+				this.find('figcaption').fadeIn();
+			},
+			autoPlay: false,
+			pauseOnHover: true,
+			theme: 'dark',
+			rounded: true,
+			enumerateSlides: false
+		}).find('figcaption:first').show();
+	</script>
+	
+<!-- Function 2 - Stylesheet Switcher ***************************************************************************************** -->
+	<script type="text/javascript" src="function2/styleswitch.js"></script>
+	<div id="function2">
+		<h2>Function 2 - Multiple Stylesheets</h2>
+		<p>
+			Currently active stylesheet:
+			<span id="normal">normal</span>
+			<span id="funky">funky</span>
+			<span id="ancient">ancient</span>
+		</p>
+		<p>Choose a different stylesheet:</p>
+			<ul>
+				<li><a href="function2/serversideSwitch.html?style=style1" rel="normal" class="styleswitch">normal</a></li>
+				<li><a href="function2/serversideSwitch.html?style=style2" rel="funky" class="styleswitch">funky</a></li>
+				<li><a href="function2/serversideSwitch.html?style=style3" rel="ancient" class="styleswitch">ancient</a></li>
+			</ul>
+	</div>
+<!-- Function 3 - Date Picker *********************************************************************************************** -->
+	<script type="text/javascript" src="function3/jq.js"></script>
+	<script type="text/javascript" src="function3/jq.date.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function(){
+		$('#dateForm input#anyDate').datepicker({ dateFormat: 'D, M d, yy', showOn: 'button', buttonImage: 'function3/calendar.gif', buttonImageOnly: true }); // format: Thurs, Jan 31, 2008, only show when the user clicks the calendar
+	});
+	</script>
+	<div id="function3">
+		<h2>Function 3 - Date Picker</h2>
+		<form name="dateForm" id="dateForm" action="#">
+			<label for="anyDate">Pick a date, any date!</label><input type="text" id="anyDate" name="anyDate">
+		</form>
+	</div>
+	
+<!-- Function 4 - jEditable *********************************************************************************************************** -->
+	<script type="text/javascript" src="function4/jquery.jeditable.mini.js"></script>
+	<div id="function4">
+		<h2>Function 4 - jEditable</h2>
+		<div id="content">
+			<h3 class="edit">Black Holes (everything bolded is editable. Just hover over it to find out how!)<img id="img2" src="function4/images/blackhole.png"></h3>
+			<p>A black hole is <span class="edit_select" width="120px">a region of spacetime</span>, from which gravity prevents anything, including light, from escaping. The theory of general relativity predicts that a sufficiently compact mass will deform spacetime to form a black hole. Around a black hole there is a mathematically defined surface called an event horizon that marks the point of no return. It is called "black" because it absorbs all the <span class="click" width="100px">light</span> that hits the horizon, reflecting nothing, just like a perfect black body in <span class="dblclick">thermodynamics</span>. Quantum field theory in curved spacetime predicts that event horizons emit radiation like a black body with a finite temperature. This temperature is inversely proportional to the mass of the black hole, making it difficult to observe this <span class="edit">radiation for black holes of stellar mass or greater.</span></p>
+			
+			<p><span class="edit_area"><img id="img1" src="function4/images/Black_hole_lensing_web.gif">Objects whose gravity field is too strong for light to escape were first considered in the 18th century by John Michell and Pierre-Simon Laplace. The first modern solution of general relativity that would characterize a black hole was found by Karl Schwarzschild in 1916, although its interpretation as a region of space from which nothing can escape was not fully appreciated for another four decades. Long considered a mathematical curiosity, it was during the 1960s that theoretical work showed black holes were a generic prediction of general relativity. The discovery of neutron stars sparked interest in gravitationally collapsed compact objects as a possible astrophysical reality.</span></p>
+			
+			<p>Black holes of <span class="edit_textile">stellar mass</span> are expected to form when very massive stars collapse at the end of their life cycle. After a black hole has formed it can continue to grow by absorbing mass from its surroundings. By absorbing other stars and merging with other black holes, supermassive black holes of millions of solar masses may form. There is general consensus that supermassive black holes exist in the centers of most galaxies.</p>
+			
+			<p>Despite its invisible interior, the presence of a black hole can be inferred through its interaction with <span class="mouseover">other matter and with electromagnetic radiation such as light</span>. Matter falling onto a black hole can form an accretion disk heated by friction, forming some of the brightest objects in the universe. If there are other stars orbiting a black hole, their orbit can be used to determine its mass and location. These data can be used to exclude possible alternatives (such as neutron stars). In this way, astronomers have identified numerous stellar black hole candidates in binary systems, and established that the core of our Milky Way galaxy contains a supermassive black hole of about <span class="dblclick">4.3 million solar masses</span>.</p>
+			
+			<p>PS. I think the author of the "Israel caused 9-11" is a jerk.</p>
+		</div>
+	<script>
+	$(document).ready(function() {
+		$('.edit').editable('function4/function4_submitted.html', {
+			indicator: 'Saving...',
+			tooltip: 'Click to edit...'
+		});
+		$('.edit_area').editable('function4/function4_submitted.html', { 
+			type: 'textarea',
+			cancel: 'Cancel',
+			submit: 'OK',
+			tooltip: 'Click to edit...'
+		});
+		$(".edit_select").editable('function4/function4_submitted.html', {
+			data   : "{'a region of spacetime':'a region of spacetime','what I call my stomach':'what I call my stomach','a figment of your imagination':'a figment of your imagination'}",
+			type   : "select",
+			submit : "OK",
+			style  : "inherit",
+			submitdata : function() {
+			return {id : 2};
+			}
+		});
+		$(".edit_textile").editable("http://www.appelsiini.net/projects/jeditable/php/save.php?renderer=textile", {
+			loadurl   : "http://www.appelsiini.net/projects/jeditable/php/load.php",
+			type      : "textarea",
+			submit    : "OK",
+			cancel    : "Cancel",
+			tooltip   : "Click to edit..."
+		});
+		// Click event
+		$(".click").editable("http://www.appelsiini.net/projects/jeditable/php/echo.php", {
+		  tooltip   : "Click to edit...",
+		  style  : "inherit"
+		});
+		// Doubleclick event
+		$(".dblclick").editable("http://www.appelsiini.net/projects/jeditable/php/echo.php", {
+		  tooltip   : "Doubleclick to edit...",
+		  event     : "dblclick",
+		  style  : "inherit"
+		});
+		// Mouseover event
+		$(".mouseover").editable("http://www.appelsiini.net/projects/jeditable/php/echo.php", {
+		  tooltip   : "Move mouseover to edit...",
+		  event     : "mouseover",
+		  style  : "inherit"
+  });
+	});
+	</script>
+	
+<!-- Function 5 - jScrollPane *********************************************************************************************************** -->
+	<script type="text/javascript" src="function5/jScrollPane.js"></script>
+	<script type="text/javascript" src="function5/jquery.mousewheel.js"></script>	
+	<script type="text/javascript">
+		$(function(){
+			// this initialises the demo scollpanes on the page.
+			$('#pane1').jScrollPane({showArrows:true, scrollbarWidth: 16});
+			$('#pane2').jScrollPane({showArrows:true, scrollbarWidth: 16, arrowSize: 20});
+			$('#pane3').jScrollPane();
+			$('#pane4').jScrollPane({scrollbarOnLeft:true});
+		});	
+	</script>
+	<div id="function5">
+		<h2>Function 5 - jScrollPane</h2>
+		<div class="holder winXP">
+			<h3>Bach</h3>
+			<div id="pane1" class="scroll-pane">
+				<p>Johann Sebastian Bach was a German composer, organist, harpsichordist, violist, and violinist of the Baroque period. He enriched many established German styles through his skill in counterpoint, harmonic and motivic organisation, and the adaptation of rhythms, forms, and textures from abroad, particularly from Italy and France. Bach's compositions include the Brandenburg Concertos, the Mass in B minor, the The Well-Tempered Clavier, his cantatas, chorales, partitas, Passions, and organ works. His music is revered for its intellectual depth, technical command, and artistic beauty.</p>
+				<p>Bach was born in Eisenach, Saxe-Eisenach, into a very musical family; his father, Johann Ambrosius Bach was the director of the town musicians, and all of his uncles were professional musicians. His father taught him to play violin and harpsichord, and his brother, Johann Christoph Bach, taught him the clavichord and exposed him to much contemporary music. Bach also went to St Michael's School in Luneburg because of his singing skills. After graduating, he held several musical posts across Germany: he served as Kapellmeister (director of music) to Leopold, Prince of Anhalt-Kothen, Cantor of Thomasschule in Leipzig, and Royal Court Composer to August III. Bach's health and vision declined in 1749, and he died on 28 July 1750. Modern historians believe that his death was caused by a combination of stroke and pneumonia.</p>
+				<p>Bach's abilities as an organist were highly respected throughout Europe during his lifetime, although he was not widely recognised as a great composer until a revival of interest and performances of his music in the first half of the 19th century. He is now generally regarded as one of the main composers of the Baroque period, and as one of the greatest composers of all time.</p>
+			</div>
+		</div>
+		<div class="holder osX">
+			<h3>Beethoven</h3>
+			<div id="pane2" class="scroll-pane">
+				<p>Ludwig van Beethoven was a German composer and pianist. A crucial figure in the transition between the Classical and Romantic eras in Western art music, he remains one of the most famous and influential of all composers. His best known compositions include 9 symphonies, 5 concertos for piano, 32 piano sonatas, and 16 string quartets. He also composed other chamber music, choral works (including the celebrated Missa Solemnis), and songs.</p>
+				<p>Born in Bonn, then the capital of the Electorate of Cologne and part of the Holy Roman Empire, Beethoven displayed his musical talents at an early age and was taught by his father Johann van Beethoven and Christian Gottlob Neefe. During his first 22 years in Bonn, Beethoven intended to study with Wolfgang Amadeus Mozart and befriended Joseph Haydn. Beethoven moved to Vienna in 1792 and began studying with Haydn, quickly gaining a reputation as a virtuoso pianist. He lived in Vienna until his death. About 1800 his hearing began to deteriorate, and by the last decade of his life he was almost totally deaf. He gave up conducting and performing in public but continued to compose; many of his most admired works come from this period.</p>
+			</div>
+		</div>
+		<div class="holder">
+			<h3>Chopin</h3>
+			<div id="pane3" class="scroll-pane">
+				<p>Fr&eacute;d&eacute;ric Francois Chopin or Fryderyk Franciszek Chopin was a Polish composer and virtuoso pianist. He is widely considered one of the greatest Romantic composers. Chopin was born in Zelazowa Wola, a village in the Duchy of Warsaw. A renowned child-prodigy pianist and composer, he grew up in Warsaw and completed his music education there; he composed many of his mature works in Warsaw before leaving Poland in 1830 at age 20, shortly before the November 1830 Uprising.</p>
+				<p>Following the Russian suppression of the Uprising, he settled in Paris as part of Poland's Great Emigration. During the remaining 19 years of his life, Chopin gave only some 30 public performances, preferring the more intimate atmosphere of the salon; he supported himself by selling his compositions and teaching piano. After some romantic dalliances with Polish women, including an abortive engagement, from 1837 to 1847 he carried on a relationship with the French writer Amantine Dupin, aka George Sand. For most of his life Chopin suffered from poor health; he died in Paris in 1849 at age 39.</p>
+				<p>The vast majority of Chopin's works are for solo piano, though he also wrote two piano concertos, a few chamber pieces and some songs to Polish lyrics. His piano works are often technically demanding, with an emphasis on nuance and expressive depth. Chopin invented the instrumental ballade and made major innovations to the piano sonata, mazurka, waltz, nocturne, polonaise, &eacute;tude, impromptu, scherzo and pr&eacute;lude.</p>
+			</div>
+		</div>
+		<div class="left holder">
+			<h3>Handel</h3>
+			<div id="pane4" class="scroll-pane">
+				<p>George Frideric Handel was a German-born British Baroque composer, famous for his operas, oratorios, anthems and organ concertos. Handel was born in 1685, in a family indifferent to music. He received critical musical training in Halle, Hamburg and Italy before settling in London (1712) and becoming a naturalised British subject in 1727. By then he was strongly influenced by the great composers of the Italian Baroque and the middle-German polyphonic choral tradition.</p>
+				<p>Within fifteen years, Handel, a dramatic genius, started three commercial opera companies to supply the English nobility with Italian opera, but the public came to hear the vocal bravura of the soloists rather than the music. In 1737 he had a physical breakdown, changed direction creatively and addressed the middle class. As Alexander's Feast (1736) was well received, Handel made a transition to English choral works. After his success with Messiah (1742) he never performed an Italian opera again. Handel was only partly successful with his performances of English Oratorio on mythical and biblical themes, but when he arranged a performance of Messiah to benefit the Foundling Hospital (1750) the critique ended. It has been said that the pathos of Handel's oratorios is an ethical one, and that they are hallowed not by liturgical dignity but by the moral ideals of humanity. Almost blind, and having lived in England for almost fifty years, in 1759 he died, a respected and rich man.</p>
+				<p>Handel is regarded as one of the greatest composers of all time, with works such as Water Music, Music for the Royal Fireworks and Messiah remaining popular. Handel composed more than forty operas in over thirty years, and since the late 1960s, with the revival of baroque music and original instrumentation, interest in Handel's operas has grown. His operas contain remarkable human characterisation - especially for a composer not known for his love affairs.</p>
+			</div>
+		</div>
+		<div class="holder">
+			<h3>Mendelssohn</h3>
+			<div id="pane4" class="scroll-pane">
+				<p>Jakob Ludwig Felix Mendelssohn Bartholdy, born, and generally known in English-speaking countries, as Felix Mendelssohn,was a German composer, pianist, organist and conductor of the early Romantic period.</p>
+				<p>A grandson of the philosopher Moses Mendelssohn, Felix Mendelssohn was born into a prominent Jewish family, although initially he was raised without religion and was later baptised as a Lutheran Christian. Mendelssohn was recognised early as a musical prodigy, but his parents were cautious and did not seek to capitalise on his talent.</p>
+				<p>Early success in Germany, where he also revived interest in the music of Johann Sebastian Bach, was followed by travel throughout Europe. Mendelssohn was particularly well received in Britain as a composer, conductor and soloist, and his ten visits there - during which many of his major works were premiered - form an important part of his adult career. His essentially conservative musical tastes, however, set him apart from many of his more adventurous musical contemporaries such as Franz Liszt, Richard Wagner and Hector Berlioz. The Leipzig Conservatoire (now the University of Music and Theatre Leipzig), which he founded, became a bastion of this anti-radical outlook.</p>
+				<p>Mendelssohn's work includes symphonies, concerti, oratorios, piano music and chamber music. His most-performed works include his Overture and incidental music for A Midsummer Night's Dream, the Italian Symphony, the Scottish Symphony, the overture The Hebrides, his Violin Concerto, and his String Octet. After a long period of relative denigration due to changing musical tastes and anti-Semitism in the late 19th and early 20th centuries, his creative originality has now been recognised and re-evaluated. He is now among the most popular composers of the Romantic era.</p>
+			</div>
+		</div>
+		<div style="height: 500px;">&nbsp;</div>
+	</div>
+	
+<!-- Function 6 - jQuery Tool Tip *********************************************************************************************************** -->
+	<script src="function6/jtip.js" type="text/javascript"></script>
+	<div id="function6">
+		<h2>Function 6 - jTip</h2>
+		<div id="contentPad">
+			<p><a href="function6/references.html?width=600" class="jTip" id="references" name="Shout out to the awesomeness that is WIKIPEDIA">REFERENCES</a></p>
+			
+			<p>Random musings and meditations of a free-thinking engineer <a href="function6/chess.html?width=600" class="jTip" id="chess" name="Chess!">writing about CHESS</a>.</p>
+			
+			<p>Mathematics is the abstract study of topics encompassing quantity, structure, space, change, and other properties; it has no generally accepted definition.</p>
+			
+			<p>Mathematicians seek out patterns and formulate new conjectures. Mathematicians resolve the truth or falsity of conjectures by mathematical proof. The research required to solve mathematical problems can take years or even centuries of sustained inquiry. Since the pioneering work of Giuseppe Peano (1858 - 1932), David Hilbert (1862 - 1943), and others on axiomatic systems in the late 19th century, it has become customary to view mathematical research as establishing truth by rigorous deduction from appropriately chosen axioms and definitions. When those mathematical structures are good models of real phenomena, then mathematical reasoning can provide insight or predictions about nature. ... Find out more <a href="function6/math.html?width=700" class="jTip" id="math" name="2+2 != 5!!!">here!!</a></p>
+			
+			<p>Ok, last thing here. What's "<a href="function6/defendo.html?width=800" class="jTip" id="defendo" name="Defendo?">defendo</a>"?</p>
+			
+			<p><a href="function6/more_defendo.html?width=175&amp;link=http://www.defendo.com" name="Here goes nothing..." id="defendoLink" class="jTip">Find out more about Defendo</a>.</p>
+			
+			<p>Ok ok.... this is really the last thing. Here's are link to the history of the <a href="function6/canucks.html?width=600" class="jTip" id="canucks" name="Vancouver CANUCKS">Vancouver Canucks.</a></p>
+		</div>
+	</div>
+</body>
+</html>

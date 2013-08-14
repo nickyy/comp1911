@@ -1,0 +1,40 @@
+/*
+	Nicky Yuen
+	A00880493
+	Comp1911 Assignment 2, Function 2 (FUNKY)
+*/
+
+* {
+	font-family: "Century Gothic", "times new roman", serif;
+}
+
+html {
+	font-size: 1.1em;
+}
+
+body {
+	background-color: #BCE106;
+	color: black;
+}
+
+h1 {
+	text-align: center;
+	font-size: 2em;
+}
+
+h2 {
+	padding: 8px;
+	margin-top: 50px;
+	color: red;
+	background-color: #0BC6F0;
+	border: 2px solid orange;
+}
+
+/************************************ Function 2 - Stylesheet Switcher ************************************/
+#function2 #normal, #function2 #ancient {
+	display: none;
+}
+
+#function2 span#funky {
+	text-decoration: underline;
+}

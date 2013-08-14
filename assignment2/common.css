@@ -1,0 +1,69 @@
+/*
+	Nicky Yuen
+	A00880493
+	Comp1911 Assignment 2 Stylesheet (COMMON TO ALL STYLES)
+*/
+
+/************************************ Function 1 - LiteAccordion ************************************/
+#function1 #myAccordion{
+	margin: auto;
+}
+
+#function1 li {
+	color: white;
+	list-style: none;
+}
+
+#function1 figure {
+	float: left;
+	width: 230px;
+}
+
+#function1 a:link {
+	text-decoration: none;
+}
+
+#function1 .composer_name {
+	color: yellow;
+	background-color: black;
+	font-size: 1.3em;
+}
+
+/************************************ Function 3 - Date Picker ************************************/
+#function3 input {
+	margin: 0 10px;
+}
+
+/************************************ Function 4 - jEditable ************************************/
+#function4 span {
+	font-weight: bold;
+}
+
+#function4 #content {
+	margin: 40px;
+}
+#function4 #img1 {
+	float: right;
+	padding: 5px;
+}
+
+#function4 #img2 {
+	float: left;
+	padding: 5px;
+}
+/************************************ Function 5 - jScrollPane ************************************/
+#function5 {
+	clear: both;
+}
+
+#function5 h3 {
+	text-align: center;
+	padding: 10px;
+	margin: 0;
+	background-color: orange;
+}
+
+/************************************ Function 6 - jTip ************************************/
+#function6 {
+	min-height: 800px;
+}
